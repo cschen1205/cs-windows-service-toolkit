@@ -7,8 +7,8 @@
     <ProjectGuid>{936D54BB-5DFA-4D46-80DD-AF268B2EAD1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>cs_windows_service_toolkit_samples</RootNamespace>
-    <AssemblyName>cs_windows_service_toolkit_samples</AssemblyName>
+    <RootNamespace>WindowsServiceToolkit</RootNamespace>
+    <AssemblyName>cs-windows-service-toolkit-samples</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cs-windows-service-toolkit\cs-windows-service-toolkit.csproj">
+      <Project>{c49a587e-dfb8-4905-a87b-afcbf048ae12}</Project>
+      <Name>cs-windows-service-toolkit</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-windows-service-toolkit", "cs-windows-service-toolkit\cs-windows-service-toolkit.csproj", "{C49A587E-DFB8-4905-A87B-AFCBF048AE12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs-windows-service-toolkit-samples", "cs-windows-service-toolkit-samples\cs-windows-service-toolkit-samples.csproj", "{936D54BB-5DFA-4D46-80DD-AF268B2EAD1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C49A587E-DFB8-4905-A87B-AFCBF048AE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49A587E-DFB8-4905-A87B-AFCBF048AE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49A587E-DFB8-4905-A87B-AFCBF048AE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936D54BB-5DFA-4D46-80DD-AF268B2EAD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936D54BB-5DFA-4D46-80DD-AF268B2EAD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936D54BB-5DFA-4D46-80DD-AF268B2EAD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936D54BB-5DFA-4D46-80DD-AF268B2EAD1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
